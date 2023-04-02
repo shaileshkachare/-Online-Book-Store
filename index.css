@@ -54,11 +54,11 @@ section{
     position: relative;
 }
 .heading::before{
-    content:'' ;
+    content:'';
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     width: 100%;
     height: .01rem;
     background: rgba(0,0,0,.1);
@@ -286,7 +286,7 @@ section{
     cursor: pointer;
 }
 .home{
-    background: url('https://i.pinimg.com/originals/85/8c/59/858c59bf5750fda8341f19fe6e95167c.jpg')no-repeat;
+    background: url('https://img.freepik.com/free-photo/white-paper-texture_1194-2324.jpg?w=1060&t=st=1680405043~exp=1680405643~hmac=4a149c3df797709af025729875197705c21baa2cd7c055edfb8092acc786b889')no-repeat;
     background-size: cover;
     background-position: center;
 }
